@@ -13,7 +13,7 @@ W = 700
 root = tk.Tk()
 
 def execute(text, cipher_type, key, encipher):
-    # print(cipher_type.cipher_type)
+
     if cipher_type.cipher_type:
         if cipher_type.cipher_type == 'c':
             Cipher = caesar_cipher()

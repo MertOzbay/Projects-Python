@@ -58,10 +58,3 @@ class caesar_cipher:
 
 
 
-# print(encipher('eazy', 2))
-# for i in range(ord('a'), ord('z')):
-#         print(i)
-# for i in range(ord('A'), ord('Z')):
-#         print(i)
-# for i in range(65, 123):
-#     print(str(i)+': '+chr(i))
