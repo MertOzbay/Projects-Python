@@ -20,7 +20,7 @@ class vigenere_cipher:
     def encipher(self, text: str, key: str, shift_left: Optional[bool] = True):
         if not key: raise Exception("Please enter a valid key!")
         key = ''.join(key.split()).lower()
-        if (not key.isalpha()): raise Exception("Please only use alphabetical characters in the key!")
+        if (not key.isalpha()): raise Exception("Please only use alphabetical characters in the key Vigenere cipher!")
         key_len = len(key)
         text = ''.join(text.split())
         result = ''
