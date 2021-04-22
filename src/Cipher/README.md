@@ -10,7 +10,7 @@ The user should select a cipher method by clicking on the buttons, input a key, 
 to retrieved the ciphered text. The input text should only contain alphabetic characters (only English) and spaces. Spaces will be removed in the output. 
 Current implementation preserves upper/lowercase distinction.
 
-![screenshot_image] (./images/Cipher_display.png)
+![screenshot_image](./images/Cipher_display.png)
 
 #### CAESAR CIPHER
 
