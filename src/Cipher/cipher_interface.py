@@ -19,7 +19,7 @@ def execute(text, cipher_type, key, encipher):
             Cipher = caesar_cipher()
             try:
                 key = int(key)
-            except Exception: raise Exception("A key must be an integer value for Caesae cipher!")
+            except Exception: raise Exception("A key must be an integer value for Caesar cipher!")
         elif cipher_type.cipher_type == 'v':
             Cipher = vigenere_cipher()
     else: raise Exception("Please select a cipher method!")
