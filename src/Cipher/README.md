@@ -3,8 +3,8 @@ Interactive Cipher Displayer
 
 This is an interactive tool which lets the use encipher/decipher a desired text using a key and a cipher method of choice. Currently, the 
 supported cipher methods are:
-* Caesar Cipher
-* Vignere Cipher
+* [Caesar Cipher] (https://en.wikipedia.org/wiki/Caesar_cipher)
+* [Vigenere Cipher] (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
 The user should select a cipher method by clicking on the buttons, input a key, input a text, and then click on encipher/decipher buttons 
 to retrieved the ciphered text. The input text should only contain alphabetic characters (only English) and spaces. Spaces will be removed in the output. 
